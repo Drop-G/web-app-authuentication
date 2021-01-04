@@ -10,7 +10,7 @@
 
 ## Installation
 
-* Clone the Repo SSH git@github.com:Drop-G/web-app-authentication.git
+* Clone the Repo ![SSH]("git@github.com:Drop-G/web-app-authentication.git")
 * cd server ---> yarn install ---> yarn start
 * cd .. ---> yarn install ---> yarn start
 
