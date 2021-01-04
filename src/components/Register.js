@@ -31,14 +31,14 @@ class Register extends React.Component {
 
   registerUser = (event) => {
     event.preventDefault();
-    const { first_name, last_name, email, password, ConfirmPassword } = this.state;
+    const { first_name, last_name, email, password, cpassword } = this.state;
 
     const fieldsToValidate = [
       { first_name },
       { last_name },
       { email },
       { password },
-      { ConfirmPassword }
+      { cpassword }
     ];
 
     const allFieldsEntered = validateFields(fieldsToValidate);
@@ -49,7 +49,7 @@ class Register extends React.Component {
         }
       });
     } else {
-      if (password !== ConfirmPassword) {
+      if (password !== cpassword) {
         this.setState({
           errorMsg: {
             signup_error: 'Password and confirm password does not match.'
@@ -130,11 +130,11 @@ class Register extends React.Component {
                 onChange={this.handleInputChange}
               />
             </Form.Group>
-            <Form.Group controlId="confirm-password">
+            <Form.Group controlId="cpassword">
               <Form.Label>Confirm password</Form.Label>
               <Form.Control
                 type="password"
-                name="confirm-password"
+                name="cpassword"
                 placeholder="Enter confirm password"
                 onChange={this.handleInputChange}
               />

@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 import { SIGN_IN, SIGN_OUT, BASE_API_URL } from '../utils/constants';
 import { initiateGetProfile } from './profile';
 import { history } from '../router/AppRouter';
