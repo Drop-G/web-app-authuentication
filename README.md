@@ -6,7 +6,7 @@
 * * https://www.codementor.io/postgresql-experts
 * * https://www.microfocus.com/documentation/idol/IDOL_12_0/MediaServer/Guides/html/English/Content/Getting_Started/Configure/_TRN_Set_up_PostgreSQL.htm
 
-## Intialize New PostgreSQL database and tables
+## Intialize new PostgreSQL database and tables
 
 ## Installation
 
